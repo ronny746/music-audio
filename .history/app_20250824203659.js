@@ -5,7 +5,7 @@ const path = require('path');
 const { exec } = require('child_process');
 
 const app = express();
-const PORT = process.env.PORT || 1122;
+const PORT = process.env.PORT || 11;
 
 // Middleware
 app.use(express.json());
